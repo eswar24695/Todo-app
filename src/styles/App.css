@@ -1,0 +1,53 @@
+h1 {
+    color:black;
+    text-align: center;
+}
+#btn{
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+
+}
+
+.input-div{
+    height:5vh;
+    position: relative;
+}
+
+.btn-div{
+    display: inline-block;
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+article{
+    display: inline-flex;
+    float:right;
+}
+.notes{
+    display: inline-flex;
+    font-size: larger;
+}
+.card{
+    width:30vw;
+    height: 3vh;
+    padding:2%;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin:2%;
+}
+.list-btn{
+    margin-right: 2%;
+}
+*{
+    background-color: rgb(140, 213, 240);
+    font-weight: bold;
+    color: black;
+}
+#task{
+    font-size: larger;
+    border:2px solid gray;
+    border-radius: 10px;
+}
